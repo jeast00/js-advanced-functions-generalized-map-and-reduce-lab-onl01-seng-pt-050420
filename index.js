@@ -7,3 +7,6 @@ const map = function(source, callback) {
   }
   return result;
 }
+
+
+const reduce = function(s)
