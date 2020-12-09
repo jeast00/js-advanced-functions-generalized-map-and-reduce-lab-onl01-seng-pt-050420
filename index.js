@@ -11,5 +11,5 @@ const map = function(source, callback) {
 
 const reduce = function(source, callback, startingPoint) {
   let result = (!!startingPoint) ? startingPoint : source[0];
-  let 
+  let i = (!!startingPoint) ?
 }
