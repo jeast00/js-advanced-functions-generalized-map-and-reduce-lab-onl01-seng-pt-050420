@@ -13,5 +13,7 @@ const reduce = function(source, callback, startingPoint) {
   let result = (!!startingPoint) ? startingPoint : source[0];
   let i = (!!startingPoint) ? 0 : 1;
   
-  for(, i <)
+  for(, i < source.length; i++) {
+    
+  }
 }
