@@ -9,4 +9,6 @@ const map = function(source, callback) {
 }
 
 
-const reduce = function(s)
+const reduce = function(source, callback, startingPoint) {
+  let result = 
+}
