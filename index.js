@@ -16,4 +16,5 @@ const reduce = function(source, callback, startingPoint) {
   for(, i < source.length; i++) {
     result = callback(source[i], result)
   }
+  return result;
 }
